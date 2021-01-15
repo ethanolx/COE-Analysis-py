@@ -1,0 +1,83 @@
+# Metadata for Monthly New Registration of Motor Vehicles by Vehicle Quota Categories
+---
+Identifier: '623553f1-92e9-40bc-85b2-7f85dcb6ccc5'
+Name: 'monthly-new-registration-of-motor-vehicles-by-vehicle-quota-categories'
+Title: 'Monthly New Registration of Motor Vehicles by Vehicle Quota Categories'
+Description: 'All vehicles newly registered by Vehicle Quota Categories within the
+  report period.'
+Topics:
+  - 'Transport'
+Keywords:
+  - 'Motor vehicles'
+Publisher:
+  Name: 'Land Transport Authority'
+  Admin 1:
+    Name: 'Land Transport Authority'
+    Department: 'Land Transport Authority'
+    Email: 'Datamall@LTA.gov.sg'
+Sources:
+  - 'Land Transport Authority'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Monthly'
+Coverage: '2014-01-01 to 2020-04-30'
+Last Updated: '2020-05-29T05:27:15.258952'
+Resources:
+  -
+    Identifier: '4fab6bff-c962-4dbb-a2a3-1702257f1c33'
+    Title: 'New Registration of Motor Vehicles Under Vehicle Quota System (VQS)'
+    Url: 'https://storage.data.gov.sg/monthly-new-registration-of-motor-vehicles-by-vehicle-quota-categories/resources/new-registration-of-motor-vehicles-under-vehicle-quota-system-vqs-2020-05-29T05-27-14Z.csv'
+    Format: 'CSV'
+    Coverage: '2014-01-01 to 2020-04-30'
+    Description:
+      - '* Figures include weekend/off peak cars and tax exempted vehicles.'
+      - '* Prior to Aug 2012, taxi operators can bid for a new COE or pay Prevailing
+        Quota Premium (PQP) to register a taxi under Category A.'
+      - 'The latter is only in the case of a new taxi that replaces a deregistered
+        one within 6 months.'
+      - 'From 6 Aug 2012 onwards, all taxis pay for COEs based on the PQP of Category
+        A.'
+      - '* Refers to the Early Turnover Scheme (ETS). Between 24 Apr 2013 and 30 Apr
+        2016, vehicle owners can de-register their existing'
+      - 'diesel-propelled Category C vehicles that were registered before 1 Jan 2001
+        and register a replacement vehicle within 1 month of'
+      - 'de-registration by paying a discounted Prevailing Quota Premium (PQP) under
+        the ETS. From 1 Aug 2015, the ETS was extended to'
+      - 'existing diesel-propelled Category C vehicles that were registered between
+        1 Jan 2001 and 30 Sep 2006 and will be de-registered'
+      - 'between 1 Aug 2015 and 31 Jul 2017.'
+      - '* Vehicles exempted from the VQS include scheduled and school buses, emergency
+        vehicles, engineering plants primarily for'
+      - 'off-the-road use, diplomatic vehicles and vehicles under the Disabled Person
+        Scheme.'
+      - ''
+      - 'Cars registered with COEs obtained from the Feb 2014 1st bidding exercise
+        onwards:'
+      - ''
+      - '* Category A: Cars up to 1600cc and 97kW.'
+      - '* Category B: Cars above 1600cc or 97kW.'
+      - ''
+      - 'Cars registered with COEs obtained before Feb 2014 bidding exercises:'
+      - ''
+      - '* Category A: Cars up to 1600cc.'
+      - '* Category B: Cars above 1600cc.'
+      - ''
+      - 'M02-New Reg by Quota'
+    Last Updated: '2020-05-29T05:27:14.833699'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'category'
+        Title: 'Category'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'number'
+        Title: 'No. of Vehicles'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Vehicles'
