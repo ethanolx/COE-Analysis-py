@@ -1,2 +1,5 @@
 # Temporary
 tmp
+
+# Jupyter Checkpoints
+.ipynb_checkpoints
