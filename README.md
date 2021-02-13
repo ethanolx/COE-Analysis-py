@@ -25,6 +25,7 @@
                   |           |-- eda-1.png
                   |           |-- eda-2.png
                   |           |-- outliers.png
+                  |           |-- premium-quota-reg.png
                   |           `-- year-counts.png
                   |
                   |-- data ---- out ---- clean.csv
@@ -37,7 +38,8 @@
                   |
                   |-- docs ---- CA2 Brief.pdf
                   |         |-- clean.html
-                  |         `-- coe-analysis.pptx
+                  |         |-- clean.pptx
+                  |         `-- style.css
                   |
                   |-- metadata ---- metadata-coe-bidding-results.txt
                   |             |-- metadata-monthly-de-registered-motor-vehicles-under-vehicle-quota-system-vqs.txt
@@ -51,3 +53,5 @@
 
     docs ---- clean.html
           `-- coe-analysis.pptx
+
+_refer to COE Analysis II_

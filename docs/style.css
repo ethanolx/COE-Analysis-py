@@ -1,0 +1,7 @@
+.jp-RenderedText pre, .jp-RenderedJavaScript pre, .jp-RenderedHTMLCommon pre {
+    color: lightgoldenrodyellow;
+}
+
+.jp-Notebook .jp-Cell:not(.jp-mod-active) .jp-InputPrompt {
+    color: var(--jp-cell-prompt-active-font-color);
+}
